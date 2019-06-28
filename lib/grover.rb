@@ -30,7 +30,7 @@ class Grover
       async (url_or_html, options) => {
         let browser;
         try {
-          let launchParams = Object.assign({}, options.launchParams, #{launch_params});
+          let launchParams = Object.assign({}, options.launchparams, #{launch_params});
 
           // Configure puppeteer debugging options
           const debug = options.debug; delete options.debug;
